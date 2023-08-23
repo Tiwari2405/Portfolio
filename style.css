@@ -1,0 +1,253 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+    
+body{
+    background-color: rgb(2, 2, 49);
+    color:white;
+    font-family: 'Poppins' , sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(4, 4, 95);
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color:rgb(186, 186, 204);
+    font-size: 1.1rem;
+}
+
+
+.left{
+    font-size: 1.5rem;
+    
+}
+
+.firstsection{
+    display: flex;
+    justify-content:space-around;
+    margin-top:50px;
+}
+
+.firstsection > div{
+    width:30%;
+}
+
+.leftsection{
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.rightsection img{
+    height:80%;
+    margin: 90px 0 0 0;
+}
+.purple{
+    color: rgb(146, 42, 146);
+    display: block;
+}
+
+#element{
+    color:rgb(146, 42, 146);
+}
+
+#letter{
+    color:purple;
+}
+.logo{
+    color:rgb(251, 181, 4);
+    font-size: 2.2rem;
+}
+.footer{
+    justify-content: space-around;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    color:white;
+    background-color:  rgb(26, 34, 38);
+    bottom: 0;
+    margin-top: 26px;
+}
+
+.footer div{
+    margin-top:23px;
+}
+
+.firstsection .btn{
+    padding: 8px;
+    background-color: rgb(43, 17, 119);
+    color:white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius:5px ;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#aboutsection{
+    display: flex;
+    color: white;
+    margin-top: 4%;
+    justify-content: space-around;
+    
+}
+
+.sect{
+    padding:5px 5px 5px 10px;
+    margin: 0 20px 20px 20px;
+    background-color:purple;
+    width: 100%;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+#aboutme{
+    margin-top: 4%;
+    text-align: center;
+}
+.line{
+    width: 1;
+}
+
+.intro{
+    margin: 0 20% 0 20%;
+    padding: 3% 5% 3% 5%;
+    background-color: purple;
+    border-radius: 12px;
+    align-items: center;
+    
+}
+
+.contactme{
+    display: flex;
+    color: white;
+    margin-top: 4%;
+    justify-content: space-around;
+}
+
+.contact{
+    padding:20px 20px 20px 20px;
+    margin: 0 30px 20px 20px;
+    background-color:purple;
+    width: 100%;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.certification{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+
+.certificate{
+    padding:20px 20px 20px 20px;
+    margin: 0 30px 20px 20px;
+    width: 100%;
+    background-color:purple;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: rgb(5, 5, 46);
+    padding: 10px;
+    margin-top: 7%;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width:600px) {
+    .firstsection{
+        display: block;
+    }
+    .leftsection{
+        text-align: center;
+        width: 100%;
+    }
+    .firstsection > div {
+        width: 100%;
+    }
+    nav ul li {
+        margin: 0 5px;
+    }
+    .logo {
+        font-size: 1rem;
+    }
+  }
